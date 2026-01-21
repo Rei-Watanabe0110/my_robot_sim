@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/reiwatanabe/ros_training_ws/my_robot_sim/install/setup.sh
