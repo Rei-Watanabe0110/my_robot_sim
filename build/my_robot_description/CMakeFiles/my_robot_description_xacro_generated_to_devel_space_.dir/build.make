@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/reiwatanabe/ros_training_ws/my_robot_sim/src
+CMAKE_SOURCE_DIR = /home/reiwatanabe/my_robot_sim/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/reiwatanabe/ros_training_ws/my_robot_sim/build
+CMAKE_BINARY_DIR = /home/reiwatanabe/my_robot_sim/build
 
 # Utility rule file for my_robot_description_xacro_generated_to_devel_space_.
 
@@ -63,10 +63,10 @@ my_robot_description/CMakeFiles/my_robot_description_xacro_generated_to_devel_sp
 .PHONY : my_robot_description/CMakeFiles/my_robot_description_xacro_generated_to_devel_space_.dir/build
 
 my_robot_description/CMakeFiles/my_robot_description_xacro_generated_to_devel_space_.dir/clean:
-	cd /home/reiwatanabe/ros_training_ws/my_robot_sim/build/my_robot_description && $(CMAKE_COMMAND) -P CMakeFiles/my_robot_description_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
+	cd /home/reiwatanabe/my_robot_sim/build/my_robot_description && $(CMAKE_COMMAND) -P CMakeFiles/my_robot_description_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
 .PHONY : my_robot_description/CMakeFiles/my_robot_description_xacro_generated_to_devel_space_.dir/clean
 
 my_robot_description/CMakeFiles/my_robot_description_xacro_generated_to_devel_space_.dir/depend:
-	cd /home/reiwatanabe/ros_training_ws/my_robot_sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/reiwatanabe/ros_training_ws/my_robot_sim/src /home/reiwatanabe/ros_training_ws/my_robot_sim/src/my_robot_description /home/reiwatanabe/ros_training_ws/my_robot_sim/build /home/reiwatanabe/ros_training_ws/my_robot_sim/build/my_robot_description /home/reiwatanabe/ros_training_ws/my_robot_sim/build/my_robot_description/CMakeFiles/my_robot_description_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/reiwatanabe/my_robot_sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/reiwatanabe/my_robot_sim/src /home/reiwatanabe/my_robot_sim/src/my_robot_description /home/reiwatanabe/my_robot_sim/build /home/reiwatanabe/my_robot_sim/build/my_robot_description /home/reiwatanabe/my_robot_sim/build/my_robot_description/CMakeFiles/my_robot_description_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_robot_description/CMakeFiles/my_robot_description_xacro_generated_to_devel_space_.dir/depend
 

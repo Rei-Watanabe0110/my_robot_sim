@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/reiwatanabe/ros_training_ws/my_robot_sim/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/reiwatanabe/ros_training_ws/my_robot_sim/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/reiwatanabe/ros_training_ws/my_robot_sim/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/reiwatanabe/ros_training_ws/my_robot_sim/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/reiwatanabe/my_robot_sim/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/reiwatanabe/my_robot_sim/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/reiwatanabe/my_robot_sim/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/reiwatanabe/my_robot_sim/src:$ROS_PACKAGE_PATH"

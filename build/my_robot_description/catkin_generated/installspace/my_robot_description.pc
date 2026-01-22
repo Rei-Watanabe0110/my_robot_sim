@@ -1,4 +1,4 @@
-prefix=/home/reiwatanabe/ros_training_ws/my_robot_sim/install
+prefix=/home/reiwatanabe/my_robot_sim/install
 
 Name: my_robot_description
 Description: Description of my_robot_description

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest
-# Build directory: /home/reiwatanabe/ros_training_ws/my_robot_sim/build/gtest
+# Build directory: /home/reiwatanabe/my_robot_sim/build/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

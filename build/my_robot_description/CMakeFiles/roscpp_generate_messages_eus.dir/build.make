@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/reiwatanabe/ros_training_ws/my_robot_sim/src
+CMAKE_SOURCE_DIR = /home/reiwatanabe/my_robot_sim/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/reiwatanabe/ros_training_ws/my_robot_sim/build
+CMAKE_BINARY_DIR = /home/reiwatanabe/my_robot_sim/build
 
 # Utility rule file for roscpp_generate_messages_eus.
 
@@ -63,10 +63,10 @@ my_robot_description/CMakeFiles/roscpp_generate_messages_eus.dir/build: roscpp_g
 .PHONY : my_robot_description/CMakeFiles/roscpp_generate_messages_eus.dir/build
 
 my_robot_description/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	cd /home/reiwatanabe/ros_training_ws/my_robot_sim/build/my_robot_description && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/reiwatanabe/my_robot_sim/build/my_robot_description && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : my_robot_description/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 my_robot_description/CMakeFiles/roscpp_generate_messages_eus.dir/depend:
-	cd /home/reiwatanabe/ros_training_ws/my_robot_sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/reiwatanabe/ros_training_ws/my_robot_sim/src /home/reiwatanabe/ros_training_ws/my_robot_sim/src/my_robot_description /home/reiwatanabe/ros_training_ws/my_robot_sim/build /home/reiwatanabe/ros_training_ws/my_robot_sim/build/my_robot_description /home/reiwatanabe/ros_training_ws/my_robot_sim/build/my_robot_description/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/reiwatanabe/my_robot_sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/reiwatanabe/my_robot_sim/src /home/reiwatanabe/my_robot_sim/src/my_robot_description /home/reiwatanabe/my_robot_sim/build /home/reiwatanabe/my_robot_sim/build/my_robot_description /home/reiwatanabe/my_robot_sim/build/my_robot_description/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_robot_description/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/reiwatanabe/ros_training_ws/my_robot_sim/src
+CMAKE_SOURCE_DIR = /home/reiwatanabe/my_robot_sim/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/reiwatanabe/ros_training_ws/my_robot_sim/build
+CMAKE_BINARY_DIR = /home/reiwatanabe/my_robot_sim/build
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/reiwatanabe/ros_training_ws/my_robot_sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/reiwatanabe/ros_training_ws/my_robot_sim/src /home/reiwatanabe/ros_training_ws/my_robot_sim/src /home/reiwatanabe/ros_training_ws/my_robot_sim/build /home/reiwatanabe/ros_training_ws/my_robot_sim/build /home/reiwatanabe/ros_training_ws/my_robot_sim/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/reiwatanabe/my_robot_sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/reiwatanabe/my_robot_sim/src /home/reiwatanabe/my_robot_sim/src /home/reiwatanabe/my_robot_sim/build /home/reiwatanabe/my_robot_sim/build /home/reiwatanabe/my_robot_sim/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

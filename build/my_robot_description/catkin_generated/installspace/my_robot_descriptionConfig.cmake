@@ -67,14 +67,14 @@ set(my_robot_description_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(my_robot_description_SOURCE_PREFIX /home/reiwatanabe/ros_training_ws/my_robot_sim/src/my_robot_description)
-  set(my_robot_description_DEVEL_PREFIX /home/reiwatanabe/ros_training_ws/my_robot_sim/devel)
+  set(my_robot_description_SOURCE_PREFIX /home/reiwatanabe/my_robot_sim/src/my_robot_description)
+  set(my_robot_description_DEVEL_PREFIX /home/reiwatanabe/my_robot_sim/devel)
   set(my_robot_description_INSTALL_PREFIX "")
   set(my_robot_description_PREFIX ${my_robot_description_DEVEL_PREFIX})
 else()
   set(my_robot_description_SOURCE_PREFIX "")
   set(my_robot_description_DEVEL_PREFIX "")
-  set(my_robot_description_INSTALL_PREFIX /home/reiwatanabe/ros_training_ws/my_robot_sim/install)
+  set(my_robot_description_INSTALL_PREFIX /home/reiwatanabe/my_robot_sim/install)
   set(my_robot_description_PREFIX ${my_robot_description_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/reiwatanabe/ros_training_ws/my_robot_sim/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/reiwatanabe/my_robot_sim/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
